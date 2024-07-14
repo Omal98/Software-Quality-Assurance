@@ -1,0 +1,273 @@
+{
+  "id": "33c59d51-8471-4066-8de7-21f159a3212c",
+  "version": "2.0",
+  "name": "Auto testing",
+  "url": "https://infocampus.co.in",
+  "tests": [{
+    "id": "36fa8990-00f8-4d87-9d4e-68ddef3848da",
+    "name": "Test 1",
+    "commands": [{
+      "id": "a68f45d2-e3c4-4f15-a48d-9849804a8498",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9afa5d89-5def-4a8d-bcae-474e08ba88a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c02b0d84-f5c4-45a8-9bca-f7b562851623",
+      "comment": "",
+      "command": "click",
+      "target": "id=name6",
+      "targets": [
+        ["id=name6", "id"],
+        ["css=#name6", "css:finder"],
+        ["xpath=//input[@id='name6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d49bf28c-a7ba-4642-8833-3bba7225d1a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=name6",
+      "targets": [
+        ["id=name6", "id"],
+        ["css=#name6", "css:finder"],
+        ["xpath=//input[@id='name6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "saman"
+    }, {
+      "id": "724880db-42e5-4f45-90c9-6608fe742f65",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile6",
+      "targets": [
+        ["id=mobile6", "id"],
+        ["css=#mobile6", "css:finder"],
+        ["xpath=//input[@id='mobile6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3f02faa-2301-416c-ab50-fee8b82d7ba8",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile6",
+      "targets": [
+        ["id=mobile6", "id"],
+        ["css=#mobile6", "css:finder"],
+        ["xpath=//input[@id='mobile6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "012254478"
+    }, {
+      "id": "efd581b3-c0d2-43c2-a70b-23fe5a0c94a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=email6",
+      "targets": [
+        ["id=email6", "id"],
+        ["css=#email6", "css:finder"],
+        ["xpath=//input[@id='email6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5d5fc6-90ed-491a-984b-c02c71dd0096",
+      "comment": "",
+      "command": "type",
+      "target": "id=email6",
+      "targets": [
+        ["id=email6", "id"],
+        ["css=#email6", "css:finder"],
+        ["xpath=//input[@id='email6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": "sknw@gmail.com"
+    }, {
+      "id": "5cb29719-f596-48ef-96e2-2b1065d0cce3",
+      "comment": "",
+      "command": "click",
+      "target": "id=course6",
+      "targets": [
+        ["id=course6", "id"],
+        ["css=#course6", "css:finder"],
+        ["xpath=//select[@id='course6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[5]/select", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "137241e6-508b-4558-84ef-46ebadc42ddb",
+      "comment": "",
+      "command": "select",
+      "target": "id=course6",
+      "targets": [],
+      "value": "label=IOS Swift Training"
+    }, {
+      "id": "6594c35c-1e76-43d2-8842-791e6d96c4bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-5 > .btn-success",
+      "targets": [
+        ["css=.mt-5 > .btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[27]", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "43a85402-da01-4a65-9fe5-c6b79a480912",
+    "name": "Test 2",
+    "commands": [{
+      "id": "ef3bb115-7ce5-42e9-b252-75aaa68d62b4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f422b59-3546-4454-b938-433a0f6e3be4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c74e35ac-148f-4dd4-81e4-414220ca82ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=name6",
+      "targets": [
+        ["id=name6", "id"],
+        ["css=#name6", "css:finder"],
+        ["xpath=//input[@id='name6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab86401f-fd8b-4b1e-8049-38fa5e86929e",
+      "comment": "",
+      "command": "type",
+      "target": "id=name6",
+      "targets": [
+        ["id=name6", "id"],
+        ["css=#name6", "css:finder"],
+        ["xpath=//input[@id='name6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Saman"
+    }, {
+      "id": "d276d7b3-0b3e-4c16-9310-091c6e3cdbdd",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile6",
+      "targets": [
+        ["id=mobile6", "id"],
+        ["css=#mobile6", "css:finder"],
+        ["xpath=//input[@id='mobile6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dfc92d5-8470-4511-8ed9-074cac01a140",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile6",
+      "targets": [
+        ["id=mobile6", "id"],
+        ["css=#mobile6", "css:finder"],
+        ["xpath=//input[@id='mobile6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "0125478965"
+    }, {
+      "id": "bb5e30b1-10ee-4151-95f2-d8480352f027",
+      "comment": "",
+      "command": "click",
+      "target": "id=email6",
+      "targets": [
+        ["id=email6", "id"],
+        ["css=#email6", "css:finder"],
+        ["xpath=//input[@id='email6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2fa7ec6-034b-43d4-abab-98a8a6749414",
+      "comment": "",
+      "command": "type",
+      "target": "id=email6",
+      "targets": [
+        ["id=email6", "id"],
+        ["css=#email6", "css:finder"],
+        ["xpath=//input[@id='email6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[4]/input", "xpath:position"]
+      ],
+      "value": "sknw#gmail.com"
+    }, {
+      "id": "95afb567-7dcc-49d8-a92e-14779262e822",
+      "comment": "",
+      "command": "click",
+      "target": "id=course6",
+      "targets": [
+        ["id=course6", "id"],
+        ["css=#course6", "css:finder"],
+        ["xpath=//select[@id='course6']", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[5]/select", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d57a9ea-cd85-40ac-bd5e-3822013e40ff",
+      "comment": "",
+      "command": "select",
+      "target": "id=course6",
+      "targets": [],
+      "value": "label=Python Full Stack Training With Project"
+    }, {
+      "id": "532c7be8-1fc1-4481-ac8c-d46e775d85ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-5 > .btn-success",
+      "targets": [
+        ["css=.mt-5 > .btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[27]", "xpath:attributes"],
+        ["xpath=//form[@id='form2']/div/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//body/div[2]/form/div/div/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0a8ac400-d27d-4a11-9f9e-9218487f959f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://infocampus.co.in/"],
+  "plugins": []
+}
